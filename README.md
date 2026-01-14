@@ -1,35 +1,47 @@
+# OmniLaunch 🚀
 
-Am I the only one who feels a bit "off" with the way LaunchPad has evolved (or been sidelined) in recent macOS versions? As a long-time Mac user and software enthusiast, I really missed the classic feel and flexibility of the original LaunchPad.
+A lightweight, highly customizable LaunchPad replacement for macOS, designed for those who miss the classic navigation experience.
 
-Instead of just complaining about it, I spent the last month building a replacement myself. It’s called OmniLaunch.
+---
 
-It’s still a work in progress, but it's finally at a usable stage. Full disclosure: This is a hobby project. I have zero intention of profiting from it—it is, and will always be, 100% free.
+## 📖 Introduction
+OmniLaunch was born out of a personal need to bring back the "classic" feel of the macOS LaunchPad. As macOS evolved, some of the flexibility of the original launcher was lost. This project is a labor of love—a hobbyist's attempt to build a faster, more customizable, and user-centric application launcher.
 
+**OmniLaunch is and will always be free.**
 
-## ✨ Key Features:
-Classic Layout: Multi-page icon grid with smooth swiping.
+## ✨ Features
+- **Classic Multi-page Layout:** Smooth, swipeable pages for your apps.
+- **Deep Customization:** - Adjust icon sizes and grid dimensions (rows/columns).
+    - Modify title fonts and text backgrounds.
+    - Customize background mask transition effects, colors, and transparency.
+- **Smart Folders:** Intuitive drag-and-drop folder creation and management.
+- **Custom Naming:** Rename app titles and folders within the launcher without affecting the source files.
+- **Privacy Controls:** Hide apps you don't use or want to keep private.
+- **Seamless Integration:** Supports "Start at Login" and silent startup.
 
-Deep Customization: Adjust icon sizes, title fonts, and title backgrounds to your liking.
+## 🛠 Installation & Usage
+1. Download the latest release from the [Releases](#) page.
+2. Drag `OmniLaunch.app` to your `/Applications` folder.
+3. **Recommended Setup:** Add OmniLaunch to your **Login Items** and pin it to your **Dock**. Clicking the Dock icon provides the most native, "classic LaunchPad" experience.
 
-Folder Support: Drag-and-drop icons to create folders automatically, just like you’d expect.
+### ⚠️ Security Note (Gatekeeper)
+Because I am an independent developer and have not yet registered for a formal Apple Developer certificate, the app is **unsigned**. 
+- When you first run OmniLaunch, macOS may block it. 
+- To open it: **Right-click** the app icon, select **Open**, and then click **Open** again in the dialog box.
 
-Custom Labels: Rename any app or folder shortcut without changing the actual app file.
+## 🔒 Privacy & Security
+- **Offline by Design:** OmniLaunch has no networking permissions. It does not (and cannot) send any data to external servers.
+- **Local Only:** All configuration settings are stored locally on your machine.
 
-Visual Aesthetics: Fully adjustable background mask effects, colors, and transparency.
+## 🚧 Project Status
+This is an **Alpha** version developed by an amateur enthusiast. 
+- [ ] Grid layout customization is currently experimental and may have minor UI bugs.
+- [ ] Multi-monitor support is being optimized.
 
-Layout Control: Customizable grid rows/columns (Still experimental—please be gentle with this one!).
+I welcome all feedback! If you encounter a bug or have a feature request, please [open an issue](link-to-issues).
 
-Privacy First: Supports hiding icons for apps you don’t want to see.
+## 📄 License
+This project is released under the [MIT License](LICENSE). Feel free to use, modify, and share.
 
-Utility: Supports "Start at Login" and multi-window app management.
-
-## 💡 My Recommended Setup
-To get the most "native" feel, I suggest adding OmniLaunch to your Login Items. It starts silently and sits in your Dock. I keep mine pinned there so I can trigger the full app list with a single click—bringing back that classic LaunchPad workflow we all know and love.
-
-## 🛡️ Privacy & Security
-- Gatekeeper: I’m an independent hobbyist and haven't paid the Apple Developer fee yet. This means the app isn't "signed," so you might see a security warning when you first run it. You'll need to right-click and "Open" or allow it in System Settings.
-
-- Zero Data: OmniLaunch has no networking capabilities. It doesn't send a single byte of data anywhere. Your privacy is 100% safe.
-
-## 🙏 A Small Request
-This is my first time publicly sharing a piece of software I’ve written. I know it’s not perfect and there might be bugs. I’m eager to improve it, so please leave your feedback, bug reports, or feature suggestions below! I'll be hanging out in the comments to answer any questions.
+---
+*Developed with ❤️ by a Mac enthusiast.*
