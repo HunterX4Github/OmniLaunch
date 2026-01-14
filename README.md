@@ -1,10 +1,10 @@
-```
+
 Am I the only one who feels a bit "off" with the way LaunchPad has evolved (or been sidelined) in recent macOS versions? As a long-time Mac user and software enthusiast, I really missed the classic feel and flexibility of the original LaunchPad.
 
 Instead of just complaining about it, I spent the last month building a replacement myself. It’s called OmniLaunch.
 
 It’s still a work in progress, but it's finally at a usable stage. Full disclosure: This is a hobby project. I have zero intention of profiting from it—it is, and will always be, 100% free.
-```
+
 
 ## ✨ Key Features:
 Classic Layout: Multi-page icon grid with smooth swiping.
